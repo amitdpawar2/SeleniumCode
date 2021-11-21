@@ -5,13 +5,15 @@ public class ScanInput {
         Scanner obj = new Scanner(System.in);
         System.out.println("Please enter the number");
         int a;
+        String str1;
         a=obj.nextInt();
         System.out.println("You have entered this number: "+a);
 
         System.out.println("Please enter String: " );
-       String b;
 
 
+        System.out.println("enter any string");
+        str1= obj.next();
         obj.close();
 
     }
